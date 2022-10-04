@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
 import iconCart from "./image/icon-cart.svg";
 import mainImg from "./image/image-product-desktop.jpg";
 import "./App.css";
 import "./style/fonts.css";
 import "./style/vars.css";
+import React from 'react';
 
 function ProdType(props) {
   return <header className="header">{props.name}</header>;
