@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "yangxdev.github.io/precache-manifest.95df8bb0e1d3ca362edf4aa8f667600a.js"
+  "/react1-product-preview-card/precache-manifest.41febc15e87ada68b7c72c4c097f5c2d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("yangxdev.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/react1-product-preview-card/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
