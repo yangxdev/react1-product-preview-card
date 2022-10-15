@@ -22,7 +22,7 @@
   background-color: var(--color-white);
   display: flex;
   width: 500px;
-  height: 50vh;
+  height: 55vh;
   position: relative;
   border-radius: 10px;
 }
@@ -103,4 +103,47 @@
 }
 .btnAddToCart:hover {
   background-color: var(--color-darkcyanhover);
+}
+
+.card {
+  flex-direction: row;
+}
+@media only screen and (max-width: 550px) {
+  .card {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .left, .right {
+    width: 100%;
+  }
+  .left {
+    height: 50vh;
+  }
+  .mainImg {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+  .card {
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 90%;
+  }
+  .prices {
+    justify-content: left;
+  }
+  .price {
+    margin-right: 20px;
+    font-size: 32px;
+  }
+  .prevprice {
+    margin-top: 12px;
+  }
 }
